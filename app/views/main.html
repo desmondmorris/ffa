@@ -1,0 +1,22 @@
+
+<div class="row stories">
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Story</th>
+        <th>UX Value</th>
+        <th>Tech Value</th>
+        <th>Business Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="story in Stories">
+        <td>{{story.description}}</td>
+        <td>{{story.ux}}</td>
+        <td>{{story.tech}}</td>
+        <td>{{story.business}}</td>
+      </tr>
+    </tbody>
+</table>
+</div>
